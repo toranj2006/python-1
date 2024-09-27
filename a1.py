@@ -62,7 +62,7 @@ test_prep_weight = 0.06
 total = total + (test_prep * test_prep_weight)
 
 total = total * 100
-final_grade = int(print("Your final grade is (total)"))
+final_grade = int(output("Your final grade is" + (total/6))
 
 
 
