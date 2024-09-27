@@ -56,4 +56,4 @@ test_prep_weight = 0.06
  
 total = total + (test_prep * test_prep_weight)  
  
-print("Your final grade is" + str(round(total)))
+print("Your final grade is:" + str(round(total)))
