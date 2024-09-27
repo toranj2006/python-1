@@ -16,22 +16,22 @@ if num_quizzes > 6:
  
 total = total + (num_quizzes/6 * quizzes_weight) * 100 
  
-assignment_1 = int(input("What is your grade on assignment 1?")) 
+assignment_1 = int(input("What is your grade on Assignment 1?")) 
 assignment_1_weight = 0.04 
  
 total = total + (assignment_1 * assignment_1_weight) 
  
-assignment_2 = int(input("What is your grade on assignment 2?")) 
+assignment_2 = int(input("What is your grade on Assignment 2?")) 
 assignment_2_weight = 0.04 
  
 total = total + (assignment_2 * assignment_2_weight) 
  
-assignment_3 = int(input("What is your grade on assignment 3?")) 
+assignment_3 = int(input("What is your grade on Assignment 3?")) 
 assignment_3_weight = 0.04 
  
 total = total + (assignment_3 * assignment_3_weight) 
  
-assignment_4 = int(input("What is your grade on assignment 4?")) 
+assignment_4 = int(input("What is your grade on Assignment 4?")) 
 assignment_4_weight = 0.04 
  
 total = total + (assignment_4 * assignment_4_weight) 
