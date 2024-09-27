@@ -54,9 +54,6 @@ total = total + (final_exam * final_exam_weight)
 test_prep = int(input("What is your grade for the midterms and final preparation?")) 
 test_prep_weight = 0.06 
  
-total = total + (test_prep * test_prep_weight) 
+total = total + (test_prep * test_prep_weight)  
  
-total = total 
- 
-print("Your final grade is" + str(total)) 
- 
+print("Your final grade is" + str(total))
